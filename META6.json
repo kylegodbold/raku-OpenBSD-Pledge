@@ -1,0 +1,13 @@
+{
+    "perl" : "6.d",
+    "name" : "OpenBSD::Pledge",
+    "version" : "0.0.1a",
+    "description" : "Raku interface to OpenBSD's pledge() and unveil().",
+    "test-depends" : [ ],
+    "license" : "ISC",
+    "depends" : [ ],
+    "provides" : {
+        "OpenBSD::Pledge" : "lib/OpenBSD/Pledge.rakumod",
+    },
+    "source-url" : "git://github.com/kylegodbold/raku-OpenBSD-Pledge"
+}
